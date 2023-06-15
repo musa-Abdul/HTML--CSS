@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey form</title>
+    <link rel="stylesheet" href="survey.css">
+</head>
+<body>
+    <header class="head">
+        <h1>FreeCodeCamp Survey Form</h1>
+        <p>Thank you for taking the time to help us improve the platform</p>
+    </header>
+    <form action="https://register-demo.freecodecamp.org" method="get">
+        <div class="main">
+            <div class="form-control">
+            <label for="name" class="full">Name</label><br />
+            <input class="one" type="text" id="name" required  placeholder="Enter your name" /><br />
+            </div>
+
+            <div class="form-control">
+            <label for="email" class="full">Email</label><br />
+            <input class="one" type="email" id="email" required  placeholder="Enter your email" /><br />
+            </div>
+
+            <div class="form-control">
+            <label for="age" class="full">Age(optional)</label><br />
+            <input class="one" type="number" id="age" required  placeholder="Enter your Age" /><br />
+            </div>
+
+            <div class="form-control">
+            <label for="name" class="full">which option best describes your current role?</label><br />
+            <select class="one">
+                <option>Select current role</option>
+                <option>Student</option>
+                <option>Full time job</option>
+                <option>Full time learner</option>
+                <option>prefer not to say</option>
+                <option>Others</option>
+            </select><br />
+            </div>
+
+            <div class="form-control">
+            <label for="name" class="full">Would you recommend freeCodeCamp to a friend?</label><br/>
+            <label id="radio" class="full"><input type="radio" id="radio" name="d-m-n" />Definitely</label><br />
+            <label id="maybe" class="full"><input type="radio" id="maybe" name="d-m-n" />maybe</label><br />
+            <label id="not-sure" class="full"><input type="radio" id="not-sure" name="d-m-n" />Not sure</label><br />
+            </div>
+
+            <div class="form-control">
+            <label for="name" class="full">What would you like to see improved? (Check all that apply)</label><br />
+            <label id="front-end-project" class="full"><input type="checkbox" id="front-end-project" name="d-m-n" />front end project</label><br />
+            <label id="back-end-project" class="full"><input type="checkbox" id="back-end-project" name="d-m-n" />back end project</label><br />
+            <label id="data-visualization" class="full"><input type="checkbox" id="data-visualization" name="d-m-n" />Data Visualization</label><br />
+            <label id="Challanges" class="full"><input type="checkbox" id="Challanges" name="d-m-n" />Challanges</label><br />
+            <label id="front-end-project" class="full"><input type="checkbox" id="front-end-project" name="d-m-n" />Open Source Community</label><br />
+            <label id="Gitter-help-rooms" class="full"><input type="checkbox" id="Gitter-help-rooms" name="d-m-n" />Gitter help rooms</label><br />
+            <label id="Videos" class="full"><input type="checkbox" id="Videos" name="d-m-n" />Videos</label><br />
+            <label id="city-meetups" class="full"><input type="checkbox" id="city-meetups" name="d-m-n" />City Meetups</label><br />
+            <label id="wiki" class="full"><input type="checkbox" id="Wiki" name="d-m-n" />Wiki</label><br />
+            <label id="Forum" class="full"><input type="checkbox" id="Forum" name="d-m-n" />Forum</label><br />
+            <label id="Additional-courses" class="full"><input type="checkbox" id="Additional-courses" name="d-m-n" />Additional Courses</label><br />
+            </div>
+
+            <div class="form-control">
+            <label for="name" class="full">Any comments or suggestions?</label><br />
+            <textarea class="new" placeholder="Enter your comments here..."></textarea><br />
+            </div>
+
+            <div class="form-control">
+            <input type="submit" value="SUBMIT" class="submit" type="submit">
+            </div>
+            <footer>
+                <p>Proudly designed by Dr.jawaad</p>
+            </footer>
+        </div>
+    </form>
+</body>
+</html>
+
+
+
+
+
+
